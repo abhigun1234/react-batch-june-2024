@@ -14,6 +14,7 @@ import LifecycleD from './LifecycleD';
 import ListData from './ListData';
 import Hooks from './Hooks';
 import PersonList from './PersonList';
+import PersonState from './PersonState';
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
     {/* <LifecycleA></LifecycleA> */}
     {/* <ListData></ListData> */}
     {/* <Hooks></Hooks> */}
-    <PersonList></PersonList>
+    <PersonState></PersonState>
     </div>
   );
 }
