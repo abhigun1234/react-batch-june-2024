@@ -22,7 +22,9 @@ function App() {
     {/* <LifecycleA></LifecycleA> */}
     {/* <ListData></ListData> */}
     {/* <Hooks></Hooks> */}
-    <PersonState></PersonState>
+    {/* <PersonState></PersonState> */}
+    {/* <GetApi></GetApi> */}
+    <Login></Login>
     </div>
   );
 }

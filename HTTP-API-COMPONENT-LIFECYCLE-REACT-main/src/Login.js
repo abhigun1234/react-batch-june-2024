@@ -1,3 +1,4 @@
+import axios from "axios";
 import React, { useState, useEffect } from "react";
 
 let Login = () => {
@@ -8,15 +9,16 @@ let Login = () => {
 
   //executes only on state updates of "email" only (and also with initial render)
   useEffect(() => {
-    //validation on email only
-    // if (email.indexOf("@") > 0) {
-    //   console.log("valid");
-    // } else {
-    //   console.log("invalid");
-    // }
-    console.log("email",email)
-    console.log("password",password)
+    
+    // console.log("email",email)
+    // console.log("password",password)
+    console.log("use effect hook is execting")
+    axios.get('https://fakestoreapi.com/products').then(products=>{
+      console.log("products",products)
+    })
   },[password]);
+  // useEffect(()=>{},[])
+
 
   return (
     <div className="row">

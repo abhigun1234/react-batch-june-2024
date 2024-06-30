@@ -22,14 +22,15 @@ class GetApi extends Component {
            
           ):"data loading"
         }</div>
-            </div>
+        //     </div>
+        // <div>fetching data</div>
         );
     }
     componentDidMount(){
 
         console.log("calling")
         axios.get('https://jsonplaceholder.typicode.com/posts').then(res=>{
-         console.log("res",res)
+        //  console.log("res",res)
         this.setState({ posts: res.data })
          console.log("this.state.posts",this.state.posts)
         }).catch(error=>{
@@ -38,6 +39,14 @@ class GetApi extends Component {
         })
         
     }
+
+    // componentDidMount(){
+    //     axios.get('https://jsonplaceholder.typicode.com/posts').then(res=>{
+    //         console.log("res",res)
+    //     }).catch(error=>{
+    //         console.log("error",error)
+    //     })
+    // }
 }
 
 export default GetApi;
