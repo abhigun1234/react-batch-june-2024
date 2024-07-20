@@ -37,7 +37,7 @@ export default class LifecycleA extends Component {
   //updating phase
   shouldComponentUpdate(){
     console.log("LifecycleA shouldComponentUpdate")
-    return true;
+    return false;
     
   }
   getSnapshotBeforeUpdate(previousprops,previosState){

@@ -15,6 +15,9 @@ import ListData from './ListData';
 import Hooks from './Hooks';
 import PersonList from './PersonList';
 import PersonState from './PersonState';
+import UseCallBackDemo from './UseCallBackDemo';
+import DemoCallBackHook from './DemoCallBackHook';
+import ChildCallBackHook from './ChildCallBackHook';
 
 function App() {
   return (
@@ -24,7 +27,10 @@ function App() {
     {/* <Hooks></Hooks> */}
     {/* <PersonState></PersonState> */}
     {/* <GetApi></GetApi> */}
-    <Login></Login>
+    {/* <Login></Login> */}
+    {/* <LifecycleA></LifecycleA> */}
+    {/* <UseCallBackDemo></UseCallBackDemo> */}
+    <UseCallBackDemo></UseCallBackDemo>
     </div>
   );
 }
