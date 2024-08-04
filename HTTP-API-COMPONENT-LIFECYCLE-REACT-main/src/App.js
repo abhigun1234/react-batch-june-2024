@@ -19,6 +19,7 @@ import UseCallBackDemo from './UseCallBackDemo';
 import DemoCallBackHook from './DemoCallBackHook';
 import ChildCallBackHook from './ChildCallBackHook';
 import ChildDemo from './ChildDemo';
+import ToDoList from './ToDoList';
 
 function App() {
   return (
@@ -33,7 +34,8 @@ function App() {
     {/* <UseCallBackDemo></UseCallBackDemo> */}
     {/* <UseCallBackDemo></UseCallBackDemo> */}
     {/* <LifecycleA></LifecycleA> */}
-   <LifecycleA></LifecycleA>
+   {/* <LifecycleA></LifecycleA> */}
+   <ToDoList></ToDoList>
     </div>
   );
 }
