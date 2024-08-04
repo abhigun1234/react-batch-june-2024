@@ -18,6 +18,7 @@ import PersonState from './PersonState';
 import UseCallBackDemo from './UseCallBackDemo';
 import DemoCallBackHook from './DemoCallBackHook';
 import ChildCallBackHook from './ChildCallBackHook';
+import ChildDemo from './ChildDemo';
 
 function App() {
   return (
@@ -30,7 +31,9 @@ function App() {
     {/* <Login></Login> */}
     {/* <LifecycleA></LifecycleA> */}
     {/* <UseCallBackDemo></UseCallBackDemo> */}
-    <UseCallBackDemo></UseCallBackDemo>
+    {/* <UseCallBackDemo></UseCallBackDemo> */}
+    {/* <LifecycleA></LifecycleA> */}
+   <LifecycleA></LifecycleA>
     </div>
   );
 }

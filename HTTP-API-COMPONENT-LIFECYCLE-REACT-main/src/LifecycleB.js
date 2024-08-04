@@ -24,7 +24,7 @@ export default class LifecycleB extends Component {
     //updating phase
     shouldComponentUpdate(previousProps,previousState){
       console.log("LifecycleB shouldComponentUpdate")
-      return false;
+      return true;
       
     }
     getSnapshotBeforeUpdate(previousprops,previosState){
